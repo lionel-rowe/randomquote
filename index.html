@@ -1,23 +1,31 @@
-<!DOCTYPE HTML>
-
+<!DOCTYPE html>
+<html >
 <head>
-    <title>Random Quote Generator</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-    <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <title>Design Quote of the Day (freeCodeCamp)</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
 </head>
 
 <body>
-  <h1>
-    Random Quote Generator
-  </h1>
-  
-  
-  <div id="quoteBox">
-    <q id="randomQuote"></q>
-    <p id="author"></p>
+  <div class="container">
+  <div class="big-ole-signboard">
+    <h1>Design Quote of the Day</h1>
+    <p class="quotespace"><q><span id="randomQuote"></span></q></p>
+    <p class="authorship">&mdash; <span id="author"></span></p>
+
+    <p class="options"><a href="#" target="_blank" id="change">Change</a> | <a href="#" target="_blank" id="tweet">Tweet</a></p>
   </div>
-  
-  <div id="output"></div>
-    
+</div>
+
+<footer>Quotes powered by <a href="https://quotesondesign.com" target="_blank">Quotes on Design</a>.</footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
 </body>
+</html>

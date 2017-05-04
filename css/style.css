@@ -1,0 +1,73 @@
+html {
+  background: #f67;
+}
+
+body {
+  font-family: "Georgia", "Times New Roman", serif;
+  color: #333;
+}
+
+a {
+  color: blue;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.big-ole-signboard {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  max-width: 500px;
+  border: 2px solid darkred;
+  border-radius: 30px;
+  background: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+  font-family: "Corbel", "Calibri", "Arial", sans-serif;
+  color: navy;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 3px double #eee;
+}
+
+.quotespace {
+  text-align: center;
+}
+
+.authorship {
+  text-align: right;
+}
+
+.options {
+  text-align: center;
+}
+
+q::before {
+  content: "“";
+}
+
+q::after {
+  content: "”";
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 8px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  margin: -8px;
+  right: 8px;
+  font-size: 8pt;
+  font-style: italic;
+}
+
