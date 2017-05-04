@@ -1,0 +1,22 @@
+body {
+  font-family: "Calibri", sans-serif;
+  background: seagreen;
+    color: antiquewhite;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Corbel", sans-serif;
+}
+
+q::before {
+    content: "\201C";
+}
+
+q::after {
+    content: "\201D";
+}
+
+#author::before {
+  content: "\2014\00a0";
+}
+
